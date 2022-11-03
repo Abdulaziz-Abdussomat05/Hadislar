@@ -26,9 +26,7 @@ body {
     
 }
 
-.tabheader__items {
-    display: flex;
-}
+
 .tabheader h3 {
     font-size: 28px;
     margin: 40px 0;
@@ -62,19 +60,36 @@ body {
 
 @media (max-width: 900px) {
    .container {
-    width: 700px;
-    margin: 0 auto;
-    
-   }
-  .tabContainers .tabContainer {
     width: 70%;
-    margin: 0 auto;
-  }
+   }
+
+  .tabContainers .tabContainer {
+    font-size: 14px;
+    width: 400px;
+   }
+
+
   .tabheader .tabheader__items .tabheader_item {
    font-size: 14px;
   }
   .tabheader__container {
  flex-direction: column;
-
 }
+.tabheader__items {
+    display: flex;
+}
+}
+
+@media (max-width: 420px) {
+    body {
+        text-align: center;
+    }
+    .tabheader__items {
+        width: 300px;   
+        text-align: center;     
+    }
+    .tabContainers .tabContainer {
+        font-size: 14px;
+        width: 300px;
+       }
 }
