@@ -21,11 +21,14 @@ body {
 }
 
 .main__class {
-    margin-top: 150px;
+    margin-top: 50px;
     color: white;
     
 }
 
+.tabheader__items {
+    display: flex;
+}
 .tabheader h3 {
     font-size: 28px;
     margin: 40px 0;
@@ -70,4 +73,8 @@ body {
   .tabheader .tabheader__items .tabheader_item {
    font-size: 14px;
   }
+  .tabheader__container {
+ flex-direction: column;
+
+}
 }
